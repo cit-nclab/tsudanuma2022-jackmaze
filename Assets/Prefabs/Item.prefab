@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1472014163931297539}
   - component: {fileID: 1472014163931297551}
-  - component: {fileID: 9068347615649565006}
   - component: {fileID: 1472014163931297544}
   - component: {fileID: 1472014163931297537}
   - component: {fileID: 1472014163931297538}
@@ -52,30 +51,6 @@ MonoBehaviour:
     value: 0
   itemName: Item
   size: {x: 1, y: 1, z: 1}
---- !u!114 &9068347615649565006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472014163931297545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f90a8458122ef47c3b840e286a75994a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1472014163931297551}
-  triggers:
-  - target: 4
-    specifiedTargetItem: {fileID: 0}
-    key: Increase
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1472014163931297544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,9 +65,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1472014163931297551}
   triggers:
-  - target: 4
+  - target: 0
     specifiedTargetItem: {fileID: 0}
-    key: Decrease
+    key: Touch
     type: 0
     value:
       boolValue: 0
@@ -100,9 +75,9 @@ MonoBehaviour:
       integerValue: 4
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-  - target: 0
+  - target: 4
     specifiedTargetItem: {fileID: 0}
-    key: Touch
+    key: GetItemSound
     type: 0
     value:
       boolValue: 0
@@ -192,7 +167,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 1
+                  integerValue: 100
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:

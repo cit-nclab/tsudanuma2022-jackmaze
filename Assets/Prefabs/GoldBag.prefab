@@ -84,6 +84,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1472014163931297538, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[1].value.constant.integerValue
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297538, guid: cc779e602af61724a88c2a66145da752, type: 3}
       propertyPath: logic.statements.Array.data[1].singleStatement.expression.operatorExpression.operands.Array.data[1].value.constant.integerValue
       value: 1
       objectReference: {fileID: 0}
@@ -131,6 +135,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[1].key
+      value: Increase
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[2].key
+      value: GetCoinSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[1].target
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[2].target
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[1].value.integerValue
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472014163931297544, guid: cc779e602af61724a88c2a66145da752, type: 3}
+      propertyPath: triggers.Array.data[2].value.integerValue
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1472014163931297545, guid: cc779e602af61724a88c2a66145da752, type: 3}
       propertyPath: m_Name
       value: GoldBag
@@ -155,15 +187,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eba2e3efd644a04428ed47cf0ab103ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.656
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eba2e3efd644a04428ed47cf0ab103ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.441
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eba2e3efd644a04428ed47cf0ab103ea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.00000007614241
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eba2e3efd644a04428ed47cf0ab103ea, type: 3}
       propertyPath: m_LocalRotation.w
