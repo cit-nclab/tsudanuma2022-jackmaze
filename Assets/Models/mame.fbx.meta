@@ -10,6 +10,31 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f2634270fe0009a49b2599405f1bd10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface8
+    second: {fileID: 2100000, guid: f2634270fe0009a49b2599405f1bd10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset_crystal Blue
+    second: {fileID: 2100000, guid: 550c69523ff403749a7a1ad942a55201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset_crystal Green
+    second: {fileID: 2100000, guid: 2708dc1ddb864e4439bcac8bb758dd6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset_crystal Red
+    second: {fileID: 2100000, guid: d8ce375d1933581408347d0300ffd9e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: asset_gold3
     second: {fileID: 2100000, guid: f2634270fe0009a49b2599405f1bd10a, type: 2}
   - first:
@@ -22,6 +47,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: asset_goooooold1
     second: {fileID: 2100000, guid: f2634270fe0009a49b2599405f1bd10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset_jewelry Blue
+    second: {fileID: 2100000, guid: aacb3bbb4f5409a499d94d871ec88230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asset_jewelry Blue Emission
+    second: {fileID: 2100000, guid: 1f14d6a0d0be7de49a513b6b40a3b83d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -58,10 +93,10 @@ ModelImporter:
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -106,7 +141,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 20
+    globalScale: 0.19999999
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
