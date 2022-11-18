@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.05
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.3544126, g: 0.45354316, b: 0.5916178, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 8dd2f17b6e3f8174390967bc55ead836, type: 2}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.49081343, g: 0.6818032, b: 0.78593224, a: 1}
+  m_IndirectSpecularColor: {r: 0.49087077, g: 0.68179935, b: 0.7859447, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 6431c994c34ae4641b740296f7e6d137, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: dac76275a566546289338e448407e3dc, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1668,7 +1668,7 @@ Transform:
   m_GameObject: {fileID: 612780082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 16.87}
-  m_LocalScale: {x: 3.1710126, y: 2.62, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1365910114}
@@ -5357,8 +5357,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444530644}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.15, y: 1.5, z: 21.79}
-  m_LocalScale: {x: 0.8633665, y: 2.62, z: 9.9789}
+  m_LocalPosition: {x: 2.06, y: 1.5, z: 21.79}
+  m_LocalScale: {x: 0.8633665, y: 5, z: 9.9789}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1365910114}
@@ -6492,8 +6492,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850617406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.17, y: 1.5, z: 21.79}
-  m_LocalScale: {x: 0.8633665, y: 2.62, z: 9.9789}
+  m_LocalPosition: {x: -2.06, y: 1.5, z: 21.79}
+  m_LocalScale: {x: 0.8633665, y: 5, z: 9.9789}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1365910114}
